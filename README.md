@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+## Inspiration
+Our team wanted to build an eCommerce website, and because the theme of the hackathon is Prehistoric, we built a marketplace where users and sellers can purchase and sell archeological finds. Our design and style welcome our users as cavemen when they enter the site. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What it does
+This site allows people to buy and sell caveman items from the caveman marketplace. People can add different items to their cart and pay for items using PayPal. They can also add caveman items that they want to sell for their price.
 
-## Available Scripts
+## How we built it
+We used Firebase for our storage and authentication. We used Redux in order to control the state between the products and the minecart
 
-In the project directory, you can run:
+## Challenges we ran into
+We ran into many challenges because firebase, our storage and authentication module, had updated and thus changed its syntax. We also struggled because some of our code editor sites like code sandbox did not work after a bit. We also had trouble with the GitHub and Netlify sites because it was our first time using a domain.com
 
-### `yarn start`
+## Accomplishments that we're proud of
+The accomplishments we are proud of are the authenticator usage, calculating total and billing to PayPal, using a database. The authenticator was an achievement because we were able to store data into an authenticator and manage website entry through preexisting accounts. The billing to PayPal was also another accomplishment for us because we were able to get the payment setup with relative ease. Lastly, using a database was another feat because we were able to store our data neatly and pull and display it with ease. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## What we learned
+We learned how to on developer knowledge about PayPal, collaborate better as a team, and utilize database within our website. With PayPal we learned how to connect the shipping and billing to our website, and other forms of payments. We learned how to better collaborate as a team because we were able to accommodate to the timing of others and all put in a fair share amount of work. Also, by using a database we were able to keep our data clean and organized for pushing, pulling, and displaying.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## What's next for CaveMan Adventures
+If we were to further develop our web service, we would add more user-interaction functionalities such as a more enhanced shopping experience, and possibly integrating a communication system for sellers and buyers to interact. 
